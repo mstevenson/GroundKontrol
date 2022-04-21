@@ -1,5 +1,6 @@
 {
-  "name": "groundkontrol",
+  "name": "com.lazerwalker.groundkontrol",
+  "displayName": "GroundKontrol",
   "version": "1.0.0",
   "description": "Tweak your Unity constants using a Korg NanoKontrol 2 MIDI controller",
   "scripts": {
