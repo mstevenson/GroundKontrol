@@ -26,8 +26,8 @@ class MidiControllerWindow : EditorWindow
 
   void Awake()
   {
-    _whiteImage = AssetDatabase.LoadAssetAtPath("Assets/Plugins/GroundKontrol/korg-white.png", typeof(Texture2D)) as Texture2D;
-    _blackImage = AssetDatabase.LoadAssetAtPath("Assets/Plugins/GroundKontrol/korg-black.png", typeof(Texture2D)) as Texture2D;
+    _whiteImage = AssetDatabase.LoadAssetAtPath("Packages/com.lazerwalker.groundkontrol/korg-white.png", typeof(Texture2D)) as Texture2D;
+    _blackImage = AssetDatabase.LoadAssetAtPath("Packages/com.lazerwalker.groundkontrol/korg-black.png", typeof(Texture2D)) as Texture2D;
   }
 
   void OnGUI()
