@@ -1,8 +1,8 @@
 {
     "name": "GroundKontrol.Editor",
-    "rootNamespace": "",
+    "rootNamespace": "GroundKontrol",
     "references": [
-        "GUID:e82a1301377b9c54cb128397a917a485"
+        "GUID:0cc05a8973edc0f4ba48da876fbf100f"
     ],
     "includePlatforms": [
         "Editor"
@@ -11,7 +11,7 @@
     "allowUnsafeCode": false,
     "overrideReferences": false,
     "precompiledReferences": [],
-    "autoReferenced": false,
+    "autoReferenced": true,
     "defineConstraints": [],
     "versionDefines": [],
     "noEngineReferences": false
